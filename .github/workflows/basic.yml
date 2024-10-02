@@ -8,5 +8,5 @@ jobs:
     name: Say hi to user
     runs-on: ubuntu-latest
     steps:
-      -name: Run echo
-      -run: echo "Hello World"
+      - name: Run echo
+        run: echo "Hello World"
